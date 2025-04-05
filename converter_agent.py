@@ -11,6 +11,7 @@ from typing import List, Tuple, Dict, Optional
 import datetime
 import glob
 import json
+import sys # Add sys import
 
 # --- Configuration ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -521,6 +522,18 @@ def process_csv_files(input_dir=None):
                 continue
 
             try:
+                # Increase CSV field size limit just before reading this specific file
+                try:
+                    max_int = sys.maxsize
+                    while True:
+                        try:
+                            csv.field_size_limit(max_int)
+                            break
+                        except OverflowError:
+                            max_int = int(max_int / 10)
+                except Exception as e_limit:
+                    logging.warning(f"Could not set CSV field size limit for {csv_filepath.name}: {e_limit}. Using default.")
+
                 with open(csv_filepath, 'r', newline='', encoding='utf-8') as csvfile:
                     reader = csv.DictReader(csvfile)
                     # Assuming only one row per CSV based on the previous script's logic

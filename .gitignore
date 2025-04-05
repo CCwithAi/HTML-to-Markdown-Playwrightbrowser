@@ -128,3 +128,4 @@ Thumbs.db
 # Generated data (Specific to this project)
 scraped_pages/
 ai_markdown_pages/
+.qodo

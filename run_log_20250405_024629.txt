@@ -1,0 +1,492 @@
+2025-04-05 02:46:31,954 - INFO - Google Generative AI client configured successfully.
+2025-04-05 02:46:31,954 - INFO - Output directory 'D:\ScrapeLocalto markdown\ai_markdown_pages' ensured.
+2025-04-05 02:46:31,957 - INFO - Starting web scraping process for sitemap: https://ai.pydantic.dev/sitemap.xml
+2025-04-05 02:46:32,312 - INFO - Fetched 68 URLs from sitemap: https://ai.pydantic.dev/sitemap.xml
+2025-04-05 02:46:32,313 - INFO - Will save HTML content to: scraped_pages\ai.pydantic.dev_sitemap
+[INIT].... → Crawl4AI 0.5.0.post8
+2025-04-05 02:46:36,273 - INFO - Processing URL: https://ai.pydantic.dev/
+2025-04-05 02:46:36,300 - INFO - Processing URL: https://ai.pydantic.dev/agents/
+2025-04-05 02:46:36,318 - INFO - Processing URL: https://ai.pydantic.dev/cli/
+2025-04-05 02:46:36,332 - INFO - Processing URL: https://ai.pydantic.dev/common-tools/
+2025-04-05 02:46:36,344 - INFO - Processing URL: https://ai.pydantic.dev/contributing/
+[FETCH]... ↓ https://ai.pydantic.dev/cli/... | Status: True | Time: 1.73s
+[SCRAPE].. ◆ https://ai.pydantic.dev/cli/... | Time: 0.058s
+[COMPLETE] ● https://ai.pydantic.dev/cli/... | Status: True | Total: 1.79s
+2025-04-05 02:46:38,128 - INFO - Saved HTML content from https://ai.pydantic.dev/cli/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_cli_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/common-tools/... | Status: True | Time: 1.82s
+[SCRAPE].. ◆ https://ai.pydantic.dev/common-tools/... | Time: 0.079s
+[COMPLETE] ● https://ai.pydantic.dev/common-tools/... | Status: True | Total: 1.90s
+2025-04-05 02:46:38,247 - INFO - Saved HTML content from https://ai.pydantic.dev/common-tools/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_common-tools_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/contributing/... | Status: True | Time: 1.92s
+[SCRAPE].. ◆ https://ai.pydantic.dev/contributing/... | Time: 0.058s
+[COMPLETE] ● https://ai.pydantic.dev/contributing/... | Status: True | Total: 1.98s
+2025-04-05 02:46:38,335 - INFO - Saved HTML content from https://ai.pydantic.dev/contributing/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_contributing_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/... | Status: True | Time: 2.17s
+[SCRAPE].. ◆ https://ai.pydantic.dev/... | Time: 0.086s
+[COMPLETE] ● https://ai.pydantic.dev/... | Status: True | Total: 2.26s
+2025-04-05 02:46:38,556 - INFO - Saved HTML content from https://ai.pydantic.dev/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/agents/... | Status: True | Time: 2.37s
+[SCRAPE].. ◆ https://ai.pydantic.dev/agents/... | Time: 0.256s
+[COMPLETE] ● https://ai.pydantic.dev/agents/... | Status: True | Total: 2.63s
+2025-04-05 02:46:38,949 - INFO - Saved HTML content from https://ai.pydantic.dev/agents/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_agents_.csv for AI conversion
+2025-04-05 02:46:38,950 - INFO - Processing URL: https://ai.pydantic.dev/dependencies/
+2025-04-05 02:46:38,962 - INFO - Processing URL: https://ai.pydantic.dev/evals/
+2025-04-05 02:46:38,973 - INFO - Processing URL: https://ai.pydantic.dev/graph/
+2025-04-05 02:46:38,985 - INFO - Processing URL: https://ai.pydantic.dev/help/
+2025-04-05 02:46:39,000 - INFO - Processing URL: https://ai.pydantic.dev/input/
+[FETCH]... ↓ https://ai.pydantic.dev/help/... | Status: True | Time: 0.71s
+[SCRAPE].. ◆ https://ai.pydantic.dev/help/... | Time: 0.044s
+[COMPLETE] ● https://ai.pydantic.dev/help/... | Status: True | Total: 0.76s
+2025-04-05 02:46:39,760 - INFO - Saved HTML content from https://ai.pydantic.dev/help/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_help_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/input/... | Status: True | Time: 0.80s
+[SCRAPE].. ◆ https://ai.pydantic.dev/input/... | Time: 0.065s
+[COMPLETE] ● https://ai.pydantic.dev/input/... | Status: True | Total: 0.87s
+2025-04-05 02:46:39,884 - INFO - Saved HTML content from https://ai.pydantic.dev/input/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_input_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/dependencies/... | Status: True | Time: 0.94s
+[SCRAPE].. ◆ https://ai.pydantic.dev/dependencies/... | Time: 0.166s
+[COMPLETE] ● https://ai.pydantic.dev/dependencies/... | Status: True | Total: 1.11s
+2025-04-05 02:46:40,074 - INFO - Saved HTML content from https://ai.pydantic.dev/dependencies/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_dependencies_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/evals/... | Status: True | Time: 1.29s
+[SCRAPE].. ◆ https://ai.pydantic.dev/evals/... | Time: 0.31s
+[COMPLETE] ● https://ai.pydantic.dev/evals/... | Status: True | Total: 1.60s
+2025-04-05 02:46:40,578 - INFO - Saved HTML content from https://ai.pydantic.dev/evals/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_evals_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/graph/... | Status: True | Time: 2.15s
+[SCRAPE].. ◆ https://ai.pydantic.dev/graph/... | Time: 0.256s
+[COMPLETE] ● https://ai.pydantic.dev/graph/... | Status: True | Total: 2.41s
+2025-04-05 02:46:41,401 - INFO - Saved HTML content from https://ai.pydantic.dev/graph/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_graph_.csv for AI conversion
+2025-04-05 02:46:41,401 - INFO - Processing URL: https://ai.pydantic.dev/install/
+2025-04-05 02:46:41,412 - INFO - Processing URL: https://ai.pydantic.dev/logfire/
+2025-04-05 02:46:41,425 - INFO - Processing URL: https://ai.pydantic.dev/message-history/
+2025-04-05 02:46:41,438 - INFO - Processing URL: https://ai.pydantic.dev/models/
+2025-04-05 02:46:41,454 - INFO - Processing URL: https://ai.pydantic.dev/multi-agent-applications/
+[FETCH]... ↓ https://ai.pydantic.dev/install/... | Status: True | Time: 0.80s
+[SCRAPE].. ◆ https://ai.pydantic.dev/install/... | Time: 0.072s
+[COMPLETE] ● https://ai.pydantic.dev/install/... | Status: True | Total: 0.87s
+2025-04-05 02:46:42,288 - INFO - Saved HTML content from https://ai.pydantic.dev/install/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_install_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/logfire/... | Status: True | Time: 0.90s
+[SCRAPE].. ◆ https://ai.pydantic.dev/logfire/... | Time: 0.106s
+[COMPLETE] ● https://ai.pydantic.dev/logfire/... | Status: True | Total: 1.00s
+2025-04-05 02:46:42,430 - INFO - Saved HTML content from https://ai.pydantic.dev/logfire/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_logfire_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/message-history/... | Status: True | Time: 1.02s
+[SCRAPE].. ◆ https://ai.pydantic.dev/message-history/... | Time: 0.108s
+[COMPLETE] ● https://ai.pydantic.dev/message-history/... | Status: True | Total: 1.13s
+2025-04-05 02:46:42,570 - INFO - Saved HTML content from https://ai.pydantic.dev/message-history/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_message-history_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/models/... | Status: True | Time: 1.27s
+[SCRAPE].. ◆ https://ai.pydantic.dev/models/... | Time: 0.365s
+[COMPLETE] ● https://ai.pydantic.dev/models/... | Status: True | Total: 1.64s
+2025-04-05 02:46:43,095 - INFO - Saved HTML content from https://ai.pydantic.dev/models/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_models_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/multi-agent-applications/... | Status: True | Time: 1.77s
+[SCRAPE].. ◆ https://ai.pydantic.dev/multi-agent-applications/... | Time: 0.106s
+[COMPLETE] ● https://ai.pydantic.dev/multi-agent-applications/... | Status: True | Total: 1.87s
+2025-04-05 02:46:43,345 - INFO - Saved HTML content from https://ai.pydantic.dev/multi-agent-applications/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_multi-agent-applications_.csv for AI conversion
+2025-04-05 02:46:43,345 - INFO - Processing URL: https://ai.pydantic.dev/results/
+2025-04-05 02:46:43,357 - INFO - Processing URL: https://ai.pydantic.dev/testing/
+2025-04-05 02:46:43,375 - INFO - Processing URL: https://ai.pydantic.dev/tools/
+2025-04-05 02:46:43,390 - INFO - Processing URL: https://ai.pydantic.dev/troubleshooting/
+2025-04-05 02:46:43,412 - INFO - Processing URL: https://ai.pydantic.dev/api/agent/
+[FETCH]... ↓ https://ai.pydantic.dev/troubleshooting/... | Status: True | Time: 0.79s
+[SCRAPE].. ◆ https://ai.pydantic.dev/troubleshooting/... | Time: 0.045s
+[COMPLETE] ● https://ai.pydantic.dev/troubleshooting/... | Status: True | Total: 0.84s
+2025-04-05 02:46:44,247 - INFO - Saved HTML content from https://ai.pydantic.dev/troubleshooting/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_troubleshooting_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/results/... | Status: True | Time: 0.91s
+[SCRAPE].. ◆ https://ai.pydantic.dev/results/... | Time: 0.13s
+[COMPLETE] ● https://ai.pydantic.dev/results/... | Status: True | Total: 1.04s
+2025-04-05 02:46:44,400 - INFO - Saved HTML content from https://ai.pydantic.dev/results/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_results_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/testing/... | Status: True | Time: 1.03s
+[SCRAPE].. ◆ https://ai.pydantic.dev/testing/... | Time: 0.105s
+[COMPLETE] ● https://ai.pydantic.dev/testing/... | Status: True | Total: 1.14s
+2025-04-05 02:46:44,515 - INFO - Saved HTML content from https://ai.pydantic.dev/testing/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_testing_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/tools/... | Status: True | Time: 1.14s
+[SCRAPE].. ◆ https://ai.pydantic.dev/tools/... | Time: 0.13s
+[COMPLETE] ● https://ai.pydantic.dev/tools/... | Status: True | Total: 1.27s
+2025-04-05 02:46:44,660 - INFO - Saved HTML content from https://ai.pydantic.dev/tools/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_tools_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/agent/... | Status: True | Time: 1.47s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/agent/... | Time: 1.645s
+[COMPLETE] ● https://ai.pydantic.dev/api/agent/... | Status: True | Total: 3.12s
+2025-04-05 02:46:46,560 - INFO - Saved HTML content from https://ai.pydantic.dev/api/agent/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_agent_.csv for AI conversion
+2025-04-05 02:46:46,561 - INFO - Processing URL: https://ai.pydantic.dev/api/common_tools/
+2025-04-05 02:46:46,572 - INFO - Processing URL: https://ai.pydantic.dev/api/exceptions/
+2025-04-05 02:46:46,585 - INFO - Processing URL: https://ai.pydantic.dev/api/format_as_xml/
+2025-04-05 02:46:46,598 - INFO - Processing URL: https://ai.pydantic.dev/api/mcp/
+2025-04-05 02:46:46,613 - INFO - Processing URL: https://ai.pydantic.dev/api/messages/
+[FETCH]... ↓ https://ai.pydantic.dev/api/exceptions/... | Status: True | Time: 0.81s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/exceptions/... | Time: 0.119s
+[COMPLETE] ● https://ai.pydantic.dev/api/exceptions/... | Status: True | Total: 0.93s
+2025-04-05 02:46:47,524 - INFO - Saved HTML content from https://ai.pydantic.dev/api/exceptions/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_exceptions_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/format_as_xml/... | Status: True | Time: 0.93s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/format_as_xml/... | Time: 0.105s
+[COMPLETE] ● https://ai.pydantic.dev/api/format_as_xml/... | Status: True | Total: 1.04s
+2025-04-05 02:46:47,641 - INFO - Saved HTML content from https://ai.pydantic.dev/api/format_as_xml/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_format_as_xml_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/common_tools/... | Status: True | Time: 1.08s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/common_tools/... | Time: 0.077s
+[COMPLETE] ● https://ai.pydantic.dev/api/common_tools/... | Status: True | Total: 1.16s
+2025-04-05 02:46:47,734 - INFO - Saved HTML content from https://ai.pydantic.dev/api/common_tools/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_common_tools_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/mcp/... | Status: True | Time: 1.12s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/mcp/... | Time: 0.172s
+[COMPLETE] ● https://ai.pydantic.dev/api/mcp/... | Status: True | Total: 1.30s
+2025-04-05 02:46:47,912 - INFO - Saved HTML content from https://ai.pydantic.dev/api/mcp/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_mcp_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/messages/... | Status: True | Time: 1.56s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/messages/... | Time: 0.754s
+[COMPLETE] ● https://ai.pydantic.dev/api/messages/... | Status: True | Total: 2.31s
+2025-04-05 02:46:48,949 - INFO - Saved HTML content from https://ai.pydantic.dev/api/messages/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_messages_.csv for AI conversion
+2025-04-05 02:46:48,950 - INFO - Processing URL: https://ai.pydantic.dev/api/providers/
+2025-04-05 02:46:48,963 - INFO - Processing URL: https://ai.pydantic.dev/api/result/
+2025-04-05 02:46:48,980 - INFO - Processing URL: https://ai.pydantic.dev/api/settings/
+2025-04-05 02:46:48,997 - INFO - Processing URL: https://ai.pydantic.dev/api/tools/
+2025-04-05 02:46:49,019 - INFO - Processing URL: https://ai.pydantic.dev/api/usage/
+[FETCH]... ↓ https://ai.pydantic.dev/api/settings/... | Status: True | Time: 0.83s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/settings/... | Time: 0.091s
+[COMPLETE] ● https://ai.pydantic.dev/api/settings/... | Status: True | Total: 0.93s
+2025-04-05 02:46:49,924 - INFO - Saved HTML content from https://ai.pydantic.dev/api/settings/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_settings_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/result/... | Status: True | Time: 0.97s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/result/... | Time: 0.446s
+[COMPLETE] ● https://ai.pydantic.dev/api/result/... | Status: True | Total: 1.42s
+2025-04-05 02:46:50,402 - INFO - Saved HTML content from https://ai.pydantic.dev/api/result/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_result_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/usage/... | Status: True | Time: 1.42s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/usage/... | Time: 0.292s
+[COMPLETE] ● https://ai.pydantic.dev/api/usage/... | Status: True | Total: 1.71s
+2025-04-05 02:46:50,758 - INFO - Saved HTML content from https://ai.pydantic.dev/api/usage/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_usage_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/providers/... | Status: True | Time: 1.80s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/providers/... | Time: 0.574s
+[COMPLETE] ● https://ai.pydantic.dev/api/providers/... | Status: True | Total: 2.38s
+2025-04-05 02:46:51,345 - INFO - Saved HTML content from https://ai.pydantic.dev/api/providers/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_providers_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/tools/... | Status: True | Time: 2.34s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/tools/... | Time: 0.333s
+[COMPLETE] ● https://ai.pydantic.dev/api/tools/... | Status: True | Total: 2.68s
+2025-04-05 02:46:51,696 - INFO - Saved HTML content from https://ai.pydantic.dev/api/tools/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_tools_.csv for AI conversion
+2025-04-05 02:46:51,697 - INFO - Processing URL: https://ai.pydantic.dev/api/models/anthropic/
+2025-04-05 02:46:51,711 - INFO - Processing URL: https://ai.pydantic.dev/api/models/base/
+2025-04-05 02:46:51,729 - INFO - Processing URL: https://ai.pydantic.dev/api/models/bedrock/
+2025-04-05 02:46:51,746 - INFO - Processing URL: https://ai.pydantic.dev/api/models/cohere/
+2025-04-05 02:46:51,768 - INFO - Processing URL: https://ai.pydantic.dev/api/models/fallback/
+[FETCH]... ↓ https://ai.pydantic.dev/api/models/anthropic/... | Status: True | Time: 0.76s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/models/anthropic/... | Time: 0.553s
+[COMPLETE] ● https://ai.pydantic.dev/api/models/anthropic/... | Status: True | Total: 1.32s
+2025-04-05 02:46:53,040 - INFO - Saved HTML content from https://ai.pydantic.dev/api/models/anthropic/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_models_anthropic_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/models/bedrock/... | Status: True | Time: 1.33s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/models/bedrock/... | Time: 0.283s
+[COMPLETE] ● https://ai.pydantic.dev/api/models/bedrock/... | Status: True | Total: 1.61s
+2025-04-05 02:46:53,359 - INFO - Saved HTML content from https://ai.pydantic.dev/api/models/bedrock/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_models_bedrock_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/models/fallback/... | Status: True | Time: 1.61s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/models/fallback/... | Time: 0.195s
+[COMPLETE] ● https://ai.pydantic.dev/api/models/fallback/... | Status: True | Total: 1.80s
+2025-04-05 02:46:53,592 - INFO - Saved HTML content from https://ai.pydantic.dev/api/models/fallback/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_models_fallback_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/models/base/... | Status: True | Time: 1.87s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/models/base/... | Time: 0.185s
+[COMPLETE] ● https://ai.pydantic.dev/api/models/base/... | Status: True | Total: 2.05s
+2025-04-05 02:46:53,783 - INFO - Saved HTML content from https://ai.pydantic.dev/api/models/base/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_models_base_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/models/cohere/... | Status: True | Time: 2.02s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/models/cohere/... | Time: 0.159s
+[COMPLETE] ● https://ai.pydantic.dev/api/models/cohere/... | Status: True | Total: 2.18s
+2025-04-05 02:46:53,948 - INFO - Saved HTML content from https://ai.pydantic.dev/api/models/cohere/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_models_cohere_.csv for AI conversion
+2025-04-05 02:46:53,948 - INFO - Processing URL: https://ai.pydantic.dev/api/models/function/
+2025-04-05 02:46:53,960 - INFO - Processing URL: https://ai.pydantic.dev/api/models/gemini/
+2025-04-05 02:46:53,974 - INFO - Processing URL: https://ai.pydantic.dev/api/models/groq/
+2025-04-05 02:46:53,987 - INFO - Processing URL: https://ai.pydantic.dev/api/models/instrumented/
+2025-04-05 02:46:54,003 - INFO - Processing URL: https://ai.pydantic.dev/api/models/mistral/
+[FETCH]... ↓ https://ai.pydantic.dev/api/models/groq/... | Status: True | Time: 0.86s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/models/groq/... | Time: 0.254s
+[COMPLETE] ● https://ai.pydantic.dev/api/models/groq/... | Status: True | Total: 1.12s
+2025-04-05 02:46:55,118 - INFO - Saved HTML content from https://ai.pydantic.dev/api/models/groq/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_models_groq_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/models/instrumented/... | Status: True | Time: 1.12s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/models/instrumented/... | Time: 0.198s
+[COMPLETE] ● https://ai.pydantic.dev/api/models/instrumented/... | Status: True | Total: 1.32s
+2025-04-05 02:46:55,325 - INFO - Saved HTML content from https://ai.pydantic.dev/api/models/instrumented/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_models_instrumented_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/models/function/... | Status: True | Time: 1.37s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/models/function/... | Time: 0.219s
+[COMPLETE] ● https://ai.pydantic.dev/api/models/function/... | Status: True | Total: 1.59s
+2025-04-05 02:46:55,564 - INFO - Saved HTML content from https://ai.pydantic.dev/api/models/function/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_models_function_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/models/gemini/... | Status: True | Time: 1.60s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/models/gemini/... | Time: 0.27s
+[COMPLETE] ● https://ai.pydantic.dev/api/models/gemini/... | Status: True | Total: 1.87s
+2025-04-05 02:46:55,844 - INFO - Saved HTML content from https://ai.pydantic.dev/api/models/gemini/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_models_gemini_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/models/mistral/... | Status: True | Time: 1.83s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/models/mistral/... | Time: 0.34s
+[COMPLETE] ● https://ai.pydantic.dev/api/models/mistral/... | Status: True | Total: 2.17s
+2025-04-05 02:46:56,202 - INFO - Saved HTML content from https://ai.pydantic.dev/api/models/mistral/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_models_mistral_.csv for AI conversion
+2025-04-05 02:46:56,202 - INFO - Processing URL: https://ai.pydantic.dev/api/models/openai/
+2025-04-05 02:46:56,213 - INFO - Processing URL: https://ai.pydantic.dev/api/models/test/
+2025-04-05 02:46:56,229 - INFO - Processing URL: https://ai.pydantic.dev/api/models/wrapper/
+2025-04-05 02:46:56,244 - INFO - Processing URL: https://ai.pydantic.dev/api/pydantic_evals/dataset/
+2025-04-05 02:46:56,262 - INFO - Processing URL: https://ai.pydantic.dev/api/pydantic_evals/evaluators/
+[FETCH]... ↓ https://ai.pydantic.dev/api/models/wrapper/... | Status: True | Time: 0.75s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/models/wrapper/... | Time: 0.075s
+[COMPLETE] ● https://ai.pydantic.dev/api/models/wrapper/... | Status: True | Total: 0.83s
+2025-04-05 02:46:57,087 - INFO - Saved HTML content from https://ai.pydantic.dev/api/models/wrapper/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_models_wrapper_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/models/test/... | Status: True | Time: 0.87s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/models/test/... | Time: 0.198s
+[COMPLETE] ● https://ai.pydantic.dev/api/models/test/... | Status: True | Total: 1.07s
+2025-04-05 02:46:57,297 - INFO - Saved HTML content from https://ai.pydantic.dev/api/models/test/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_models_test_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/models/openai/... | Status: True | Time: 1.10s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/models/openai/... | Time: 0.463s
+[COMPLETE] ● https://ai.pydantic.dev/api/models/openai/... | Status: True | Total: 1.56s
+2025-04-05 02:46:57,781 - INFO - Saved HTML content from https://ai.pydantic.dev/api/models/openai/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_models_openai_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/pydantic_evals/evaluat... | Status: True | Time: 1.67s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/pydantic_evals/evaluat... | Time: 0.55s
+[COMPLETE] ● https://ai.pydantic.dev/api/pydantic_evals/evaluat... | Status: True | Total: 2.22s
+2025-04-05 02:46:58,502 - INFO - Saved HTML content from https://ai.pydantic.dev/api/pydantic_evals/evaluators/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_pydantic_evals_evaluators_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/pydantic_evals/dataset... | Status: True | Time: 2.25s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/pydantic_evals/dataset... | Time: 0.681s
+[COMPLETE] ● https://ai.pydantic.dev/api/pydantic_evals/dataset... | Status: True | Total: 2.93s
+2025-04-05 02:46:59,194 - INFO - Saved HTML content from https://ai.pydantic.dev/api/pydantic_evals/dataset/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_pydantic_evals_dataset_.csv for AI conversion
+2025-04-05 02:46:59,195 - INFO - Processing URL: https://ai.pydantic.dev/api/pydantic_evals/generation/
+2025-04-05 02:46:59,205 - INFO - Processing URL: https://ai.pydantic.dev/api/pydantic_evals/otel/
+2025-04-05 02:46:59,222 - INFO - Processing URL: https://ai.pydantic.dev/api/pydantic_evals/reporting/
+2025-04-05 02:46:59,235 - INFO - Processing URL: https://ai.pydantic.dev/api/pydantic_graph/exceptions/
+2025-04-05 02:46:59,251 - INFO - Processing URL: https://ai.pydantic.dev/api/pydantic_graph/graph/
+[FETCH]... ↓ https://ai.pydantic.dev/api/pydantic_evals/generat... | Status: True | Time: 0.81s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/pydantic_evals/generat... | Time: 0.197s
+[COMPLETE] ● https://ai.pydantic.dev/api/pydantic_evals/generat... | Status: True | Total: 1.01s
+2025-04-05 02:47:00,218 - INFO - Saved HTML content from https://ai.pydantic.dev/api/pydantic_evals/generation/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_pydantic_evals_generation_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/pydantic_graph/excepti... | Status: True | Time: 1.11s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/pydantic_graph/excepti... | Time: 0.11s
+[COMPLETE] ● https://ai.pydantic.dev/api/pydantic_graph/excepti... | Status: True | Total: 1.22s
+2025-04-05 02:47:00,474 - INFO - Saved HTML content from https://ai.pydantic.dev/api/pydantic_graph/exceptions/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_pydantic_graph_exceptions_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/pydantic_evals/otel/... | Status: True | Time: 1.29s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/pydantic_evals/otel/... | Time: 0.72s
+[COMPLETE] ● https://ai.pydantic.dev/api/pydantic_evals/otel/... | Status: True | Total: 2.02s
+2025-04-05 02:47:01,242 - INFO - Saved HTML content from https://ai.pydantic.dev/api/pydantic_evals/otel/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_pydantic_evals_otel_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/pydantic_evals/reporti... | Status: True | Time: 2.01s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/pydantic_evals/reporti... | Time: 0.468s
+[COMPLETE] ● https://ai.pydantic.dev/api/pydantic_evals/reporti... | Status: True | Total: 2.48s
+2025-04-05 02:47:01,719 - INFO - Saved HTML content from https://ai.pydantic.dev/api/pydantic_evals/reporting/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_pydantic_evals_reporting_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/pydantic_graph/graph/... | Status: True | Time: 2.64s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/pydantic_graph/graph/... | Time: 0.779s
+[COMPLETE] ● https://ai.pydantic.dev/api/pydantic_graph/graph/... | Status: True | Total: 3.42s
+2025-04-05 02:47:02,692 - INFO - Saved HTML content from https://ai.pydantic.dev/api/pydantic_graph/graph/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_pydantic_graph_graph_.csv for AI conversion
+2025-04-05 02:47:02,693 - INFO - Processing URL: https://ai.pydantic.dev/api/pydantic_graph/mermaid/
+2025-04-05 02:47:02,703 - INFO - Processing URL: https://ai.pydantic.dev/api/pydantic_graph/nodes/
+2025-04-05 02:47:02,717 - INFO - Processing URL: https://ai.pydantic.dev/api/pydantic_graph/persistence/
+2025-04-05 02:47:02,731 - INFO - Processing URL: https://ai.pydantic.dev/examples/
+2025-04-05 02:47:02,748 - INFO - Processing URL: https://ai.pydantic.dev/examples/bank-support/
+[FETCH]... ↓ https://ai.pydantic.dev/examples/... | Status: True | Time: 0.84s
+[SCRAPE].. ◆ https://ai.pydantic.dev/examples/... | Time: 0.057s
+[COMPLETE] ● https://ai.pydantic.dev/examples/... | Status: True | Total: 0.90s
+2025-04-05 02:47:03,650 - INFO - Saved HTML content from https://ai.pydantic.dev/examples/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_examples_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/examples/bank-support/... | Status: True | Time: 0.90s
+[SCRAPE].. ◆ https://ai.pydantic.dev/examples/bank-support/... | Time: 0.081s
+[COMPLETE] ● https://ai.pydantic.dev/examples/bank-support/... | Status: True | Total: 0.98s
+2025-04-05 02:47:03,745 - INFO - Saved HTML content from https://ai.pydantic.dev/examples/bank-support/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_examples_bank-support_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/pydantic_graph/mermaid... | Status: True | Time: 1.07s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/pydantic_graph/mermaid... | Time: 0.296s
+[COMPLETE] ● https://ai.pydantic.dev/api/pydantic_graph/mermaid... | Status: True | Total: 1.37s
+2025-04-05 02:47:04,074 - INFO - Saved HTML content from https://ai.pydantic.dev/api/pydantic_graph/mermaid/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_pydantic_graph_mermaid_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/pydantic_graph/nodes/... | Status: True | Time: 1.36s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/pydantic_graph/nodes/... | Time: 0.484s
+[COMPLETE] ● https://ai.pydantic.dev/api/pydantic_graph/nodes/... | Status: True | Total: 1.85s
+2025-04-05 02:47:04,564 - INFO - Saved HTML content from https://ai.pydantic.dev/api/pydantic_graph/nodes/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_pydantic_graph_nodes_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/api/pydantic_graph/persist... | Status: True | Time: 1.97s
+[SCRAPE].. ◆ https://ai.pydantic.dev/api/pydantic_graph/persist... | Time: 0.433s
+[COMPLETE] ● https://ai.pydantic.dev/api/pydantic_graph/persist... | Status: True | Total: 2.41s
+2025-04-05 02:47:05,143 - INFO - Saved HTML content from https://ai.pydantic.dev/api/pydantic_graph/persistence/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_api_pydantic_graph_persistence_.csv for AI conversion
+2025-04-05 02:47:05,143 - INFO - Processing URL: https://ai.pydantic.dev/examples/chat-app/
+2025-04-05 02:47:05,154 - INFO - Processing URL: https://ai.pydantic.dev/examples/flight-booking/
+2025-04-05 02:47:05,168 - INFO - Processing URL: https://ai.pydantic.dev/examples/pydantic-model/
+2025-04-05 02:47:05,183 - INFO - Processing URL: https://ai.pydantic.dev/examples/question-graph/
+2025-04-05 02:47:05,199 - INFO - Processing URL: https://ai.pydantic.dev/examples/rag/
+[FETCH]... ↓ https://ai.pydantic.dev/examples/pydantic-model/... | Status: True | Time: 0.71s
+[SCRAPE].. ◆ https://ai.pydantic.dev/examples/pydantic-model/... | Time: 0.062s
+[COMPLETE] ● https://ai.pydantic.dev/examples/pydantic-model/... | Status: True | Total: 0.78s
+2025-04-05 02:47:05,961 - INFO - Saved HTML content from https://ai.pydantic.dev/examples/pydantic-model/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_examples_pydantic-model_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/examples/chat-app/... | Status: True | Time: 0.84s
+[SCRAPE].. ◆ https://ai.pydantic.dev/examples/chat-app/... | Time: 0.212s
+[COMPLETE] ● https://ai.pydantic.dev/examples/chat-app/... | Status: True | Total: 1.05s
+2025-04-05 02:47:06,213 - INFO - Saved HTML content from https://ai.pydantic.dev/examples/chat-app/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_examples_chat-app_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/examples/flight-booking/... | Status: True | Time: 1.07s
+[SCRAPE].. ◆ https://ai.pydantic.dev/examples/flight-booking/... | Time: 0.126s
+[COMPLETE] ● https://ai.pydantic.dev/examples/flight-booking/... | Status: True | Total: 1.20s
+2025-04-05 02:47:06,365 - INFO - Saved HTML content from https://ai.pydantic.dev/examples/flight-booking/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_examples_flight-booking_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/examples/question-graph/... | Status: True | Time: 1.17s
+[SCRAPE].. ◆ https://ai.pydantic.dev/examples/question-graph/... | Time: 0.093s
+[COMPLETE] ● https://ai.pydantic.dev/examples/question-graph/... | Status: True | Total: 1.27s
+2025-04-05 02:47:06,466 - INFO - Saved HTML content from https://ai.pydantic.dev/examples/question-graph/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_examples_question-graph_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/examples/rag/... | Status: True | Time: 1.27s
+[SCRAPE].. ◆ https://ai.pydantic.dev/examples/rag/... | Time: 0.129s
+[COMPLETE] ● https://ai.pydantic.dev/examples/rag/... | Status: True | Total: 1.40s
+2025-04-05 02:47:06,611 - INFO - Saved HTML content from https://ai.pydantic.dev/examples/rag/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_examples_rag_.csv for AI conversion
+2025-04-05 02:47:06,611 - INFO - Processing URL: https://ai.pydantic.dev/examples/sql-gen/
+2025-04-05 02:47:06,622 - INFO - Processing URL: https://ai.pydantic.dev/examples/stream-markdown/
+2025-04-05 02:47:06,634 - INFO - Processing URL: https://ai.pydantic.dev/examples/stream-whales/
+2025-04-05 02:47:06,645 - INFO - Processing URL: https://ai.pydantic.dev/examples/weather-agent/
+2025-04-05 02:47:06,661 - INFO - Processing URL: https://ai.pydantic.dev/mcp/
+[FETCH]... ↓ https://ai.pydantic.dev/examples/stream-markdown/... | Status: True | Time: 0.77s
+[SCRAPE].. ◆ https://ai.pydantic.dev/examples/stream-markdown/... | Time: 0.06s
+[COMPLETE] ● https://ai.pydantic.dev/examples/stream-markdown/... | Status: True | Total: 0.83s
+2025-04-05 02:47:07,465 - INFO - Saved HTML content from https://ai.pydantic.dev/examples/stream-markdown/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_examples_stream-markdown_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/mcp/... | Status: True | Time: 0.82s
+[SCRAPE].. ◆ https://ai.pydantic.dev/mcp/... | Time: 0.051s
+[COMPLETE] ● https://ai.pydantic.dev/mcp/... | Status: True | Total: 0.87s
+2025-04-05 02:47:07,549 - INFO - Saved HTML content from https://ai.pydantic.dev/mcp/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_mcp_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/examples/sql-gen/... | Status: True | Time: 0.93s
+[SCRAPE].. ◆ https://ai.pydantic.dev/examples/sql-gen/... | Time: 0.094s
+[COMPLETE] ● https://ai.pydantic.dev/examples/sql-gen/... | Status: True | Total: 1.03s
+2025-04-05 02:47:07,652 - INFO - Saved HTML content from https://ai.pydantic.dev/examples/sql-gen/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_examples_sql-gen_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/examples/stream-whales/... | Status: True | Time: 1.01s
+[SCRAPE].. ◆ https://ai.pydantic.dev/examples/stream-whales/... | Time: 0.063s
+[COMPLETE] ● https://ai.pydantic.dev/examples/stream-whales/... | Status: True | Total: 1.07s
+2025-04-05 02:47:07,720 - INFO - Saved HTML content from https://ai.pydantic.dev/examples/stream-whales/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_examples_stream-whales_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/examples/weather-agent/... | Status: True | Time: 1.08s
+[SCRAPE].. ◆ https://ai.pydantic.dev/examples/weather-agent/... | Time: 0.123s
+[COMPLETE] ● https://ai.pydantic.dev/examples/weather-agent/... | Status: True | Total: 1.20s
+2025-04-05 02:47:07,861 - INFO - Saved HTML content from https://ai.pydantic.dev/examples/weather-agent/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_examples_weather-agent_.csv for AI conversion
+2025-04-05 02:47:07,861 - INFO - Processing URL: https://ai.pydantic.dev/mcp/client/
+2025-04-05 02:47:07,874 - INFO - Processing URL: https://ai.pydantic.dev/mcp/run-python/
+2025-04-05 02:47:07,887 - INFO - Processing URL: https://ai.pydantic.dev/mcp/server/
+[FETCH]... ↓ https://ai.pydantic.dev/mcp/server/... | Status: True | Time: 0.64s
+[SCRAPE].. ◆ https://ai.pydantic.dev/mcp/server/... | Time: 0.061s
+[COMPLETE] ● https://ai.pydantic.dev/mcp/server/... | Status: True | Total: 0.71s
+2025-04-05 02:47:08,608 - INFO - Saved HTML content from https://ai.pydantic.dev/mcp/server/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_mcp_server_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/mcp/run-python/... | Status: True | Time: 0.72s
+[SCRAPE].. ◆ https://ai.pydantic.dev/mcp/run-python/... | Time: 0.07s
+[COMPLETE] ● https://ai.pydantic.dev/mcp/run-python/... | Status: True | Total: 0.80s
+2025-04-05 02:47:08,684 - INFO - Saved HTML content from https://ai.pydantic.dev/mcp/run-python/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_mcp_run-python_.csv for AI conversion
+[FETCH]... ↓ https://ai.pydantic.dev/mcp/client/... | Status: True | Time: 0.81s
+[SCRAPE].. ◆ https://ai.pydantic.dev/mcp/client/... | Time: 0.058s
+[COMPLETE] ● https://ai.pydantic.dev/mcp/client/... | Status: True | Total: 0.87s
+2025-04-05 02:47:08,747 - INFO - Saved HTML content from https://ai.pydantic.dev/mcp/client/ to scraped_pages\ai.pydantic.dev_sitemap\ai_pydantic_dev_mcp_client_.csv for AI conversion
+2025-04-05 02:47:08,961 - INFO - Completed processing 68 URLs from https://ai.pydantic.dev/sitemap.xml
+2025-04-05 02:47:08,961 - INFO - Scraping completed. HTML content saved to scraped_pages\ai.pydantic.dev_sitemap.
+2025-04-05 02:47:08,961 - INFO - Run converter_agent.py next to convert HTML to enhanced markdown.
+2025-04-05 02:47:09,962 - INFO - Starting AI conversion process for directory: scraped_pages\ai.pydantic.dev_sitemap
+2025-04-05 02:47:09,962 - INFO - Processing files in 'scraped_pages\ai.pydantic.dev_sitemap'...
+2025-04-05 02:47:09,963 - INFO - Found 68 CSV files to process in scraped_pages\ai.pydantic.dev_sitemap.
+2025-04-05 02:47:09,964 - INFO - Processing 'ai_pydantic_dev_.csv'...
+2025-04-05 02:47:09,964 - INFO - Markdown file 'ai_pydantic_dev_.md' already exists. Skipping.
+2025-04-05 02:47:09,964 - INFO - Processing 'ai_pydantic_dev_agents_.csv'...
+2025-04-05 02:47:09,965 - INFO - Markdown file 'ai_pydantic_dev_agents_.md' already exists. Skipping.
+2025-04-05 02:47:09,965 - INFO - Processing 'ai_pydantic_dev_api_agent_.csv'...
+2025-04-05 02:47:09,965 - INFO - Markdown file 'ai_pydantic_dev_api_agent_.md' already exists. Skipping.
+2025-04-05 02:47:09,965 - INFO - Processing 'ai_pydantic_dev_api_common_tools_.csv'...
+2025-04-05 02:47:09,966 - INFO - Markdown file 'ai_pydantic_dev_api_common_tools_.md' already exists. Skipping.
+2025-04-05 02:47:09,966 - INFO - Processing 'ai_pydantic_dev_api_exceptions_.csv'...
+2025-04-05 02:47:09,966 - INFO - Markdown file 'ai_pydantic_dev_api_exceptions_.md' already exists. Skipping.
+2025-04-05 02:47:09,966 - INFO - Processing 'ai_pydantic_dev_api_format_as_xml_.csv'...
+2025-04-05 02:47:09,966 - INFO - Markdown file 'ai_pydantic_dev_api_format_as_xml_.md' already exists. Skipping.
+2025-04-05 02:47:09,966 - INFO - Processing 'ai_pydantic_dev_api_mcp_.csv'...
+2025-04-05 02:47:09,967 - INFO - Markdown file 'ai_pydantic_dev_api_mcp_.md' already exists. Skipping.
+2025-04-05 02:47:09,967 - INFO - Processing 'ai_pydantic_dev_api_messages_.csv'...
+2025-04-05 02:47:09,967 - INFO - Markdown file 'ai_pydantic_dev_api_messages_.md' already exists. Skipping.
+2025-04-05 02:47:09,967 - INFO - Processing 'ai_pydantic_dev_api_models_anthropic_.csv'...
+2025-04-05 02:47:09,967 - INFO - Markdown file 'ai_pydantic_dev_api_models_anthropic_.md' already exists. Skipping.
+2025-04-05 02:47:09,967 - INFO - Processing 'ai_pydantic_dev_api_models_base_.csv'...
+2025-04-05 02:47:09,967 - INFO - Markdown file 'ai_pydantic_dev_api_models_base_.md' already exists. Skipping.
+2025-04-05 02:47:09,967 - INFO - Processing 'ai_pydantic_dev_api_models_bedrock_.csv'...
+2025-04-05 02:47:09,967 - INFO - Markdown file 'ai_pydantic_dev_api_models_bedrock_.md' already exists. Skipping.
+2025-04-05 02:47:09,968 - INFO - Processing 'ai_pydantic_dev_api_models_cohere_.csv'...
+2025-04-05 02:47:09,968 - INFO - Markdown file 'ai_pydantic_dev_api_models_cohere_.md' already exists. Skipping.
+2025-04-05 02:47:09,968 - INFO - Processing 'ai_pydantic_dev_api_models_fallback_.csv'...
+2025-04-05 02:47:09,968 - INFO - Markdown file 'ai_pydantic_dev_api_models_fallback_.md' already exists. Skipping.
+2025-04-05 02:47:09,968 - INFO - Processing 'ai_pydantic_dev_api_models_function_.csv'...
+2025-04-05 02:47:09,968 - INFO - Markdown file 'ai_pydantic_dev_api_models_function_.md' already exists. Skipping.
+2025-04-05 02:47:09,969 - INFO - Processing 'ai_pydantic_dev_api_models_gemini_.csv'...
+2025-04-05 02:47:09,969 - INFO - Markdown file 'ai_pydantic_dev_api_models_gemini_.md' already exists. Skipping.
+2025-04-05 02:47:09,969 - INFO - Processing 'ai_pydantic_dev_api_models_groq_.csv'...
+2025-04-05 02:47:09,969 - INFO - Markdown file 'ai_pydantic_dev_api_models_groq_.md' already exists. Skipping.
+2025-04-05 02:47:09,969 - INFO - Processing 'ai_pydantic_dev_api_models_instrumented_.csv'...
+2025-04-05 02:47:09,969 - INFO - Markdown file 'ai_pydantic_dev_api_models_instrumented_.md' already exists. Skipping.
+2025-04-05 02:47:09,969 - INFO - Processing 'ai_pydantic_dev_api_models_mistral_.csv'...
+2025-04-05 02:47:09,970 - INFO - Markdown file 'ai_pydantic_dev_api_models_mistral_.md' already exists. Skipping.
+2025-04-05 02:47:09,970 - INFO - Processing 'ai_pydantic_dev_api_models_openai_.csv'...
+2025-04-05 02:47:09,970 - INFO - Markdown file 'ai_pydantic_dev_api_models_openai_.md' already exists. Skipping.
+2025-04-05 02:47:09,970 - INFO - Processing 'ai_pydantic_dev_api_models_test_.csv'...
+2025-04-05 02:47:09,970 - INFO - Markdown file 'ai_pydantic_dev_api_models_test_.md' already exists. Skipping.
+2025-04-05 02:47:09,975 - INFO - Processing 'ai_pydantic_dev_api_models_wrapper_.csv'...
+2025-04-05 02:47:09,976 - INFO - Markdown file 'ai_pydantic_dev_api_models_wrapper_.md' already exists. Skipping.
+2025-04-05 02:47:09,976 - INFO - Processing 'ai_pydantic_dev_api_providers_.csv'...
+2025-04-05 02:47:09,976 - INFO - Markdown file 'ai_pydantic_dev_api_providers_.md' already exists. Skipping.
+2025-04-05 02:47:09,976 - INFO - Processing 'ai_pydantic_dev_api_pydantic_evals_dataset_.csv'...
+2025-04-05 02:47:09,977 - INFO - Markdown file 'ai_pydantic_dev_api_pydantic_evals_dataset_.md' already exists. Skipping.
+2025-04-05 02:47:09,977 - INFO - Processing 'ai_pydantic_dev_api_pydantic_evals_evaluators_.csv'...
+2025-04-05 02:47:09,977 - INFO - Markdown file 'ai_pydantic_dev_api_pydantic_evals_evaluators_.md' already exists. Skipping.
+2025-04-05 02:47:09,977 - INFO - Processing 'ai_pydantic_dev_api_pydantic_evals_generation_.csv'...
+2025-04-05 02:47:09,977 - INFO - Markdown file 'ai_pydantic_dev_api_pydantic_evals_generation_.md' already exists. Skipping.
+2025-04-05 02:47:09,978 - INFO - Processing 'ai_pydantic_dev_api_pydantic_evals_otel_.csv'...
+2025-04-05 02:47:09,978 - INFO - Markdown file 'ai_pydantic_dev_api_pydantic_evals_otel_.md' already exists. Skipping.
+2025-04-05 02:47:09,978 - INFO - Processing 'ai_pydantic_dev_api_pydantic_evals_reporting_.csv'...
+2025-04-05 02:47:09,978 - INFO - Markdown file 'ai_pydantic_dev_api_pydantic_evals_reporting_.md' already exists. Skipping.
+2025-04-05 02:47:09,978 - INFO - Processing 'ai_pydantic_dev_api_pydantic_graph_exceptions_.csv'...
+2025-04-05 02:47:09,978 - INFO - Markdown file 'ai_pydantic_dev_api_pydantic_graph_exceptions_.md' already exists. Skipping.
+2025-04-05 02:47:09,979 - INFO - Processing 'ai_pydantic_dev_api_pydantic_graph_graph_.csv'...
+2025-04-05 02:47:09,979 - INFO - Markdown file 'ai_pydantic_dev_api_pydantic_graph_graph_.md' already exists. Skipping.
+2025-04-05 02:47:09,979 - INFO - Processing 'ai_pydantic_dev_api_pydantic_graph_mermaid_.csv'...
+2025-04-05 02:47:09,979 - INFO - Markdown file 'ai_pydantic_dev_api_pydantic_graph_mermaid_.md' already exists. Skipping.
+2025-04-05 02:47:09,979 - INFO - Processing 'ai_pydantic_dev_api_pydantic_graph_nodes_.csv'...
+2025-04-05 02:47:09,979 - INFO - Markdown file 'ai_pydantic_dev_api_pydantic_graph_nodes_.md' already exists. Skipping.
+2025-04-05 02:47:09,979 - INFO - Processing 'ai_pydantic_dev_api_pydantic_graph_persistence_.csv'...
+2025-04-05 02:47:09,979 - INFO - Markdown file 'ai_pydantic_dev_api_pydantic_graph_persistence_.md' already exists. Skipping.
+2025-04-05 02:47:09,980 - INFO - Processing 'ai_pydantic_dev_api_result_.csv'...
+2025-04-05 02:47:09,980 - INFO - Markdown file 'ai_pydantic_dev_api_result_.md' already exists. Skipping.
+2025-04-05 02:47:09,980 - INFO - Processing 'ai_pydantic_dev_api_settings_.csv'...
+2025-04-05 02:47:09,980 - INFO - Markdown file 'ai_pydantic_dev_api_settings_.md' already exists. Skipping.
+2025-04-05 02:47:09,980 - INFO - Processing 'ai_pydantic_dev_api_tools_.csv'...
+2025-04-05 02:47:09,980 - INFO - Markdown file 'ai_pydantic_dev_api_tools_.md' already exists. Skipping.
+2025-04-05 02:47:09,980 - INFO - Processing 'ai_pydantic_dev_api_usage_.csv'...
+2025-04-05 02:47:09,980 - INFO - Markdown file 'ai_pydantic_dev_api_usage_.md' already exists. Skipping.
+2025-04-05 02:47:09,980 - INFO - Processing 'ai_pydantic_dev_cli_.csv'...
+2025-04-05 02:47:09,981 - INFO - Markdown file 'ai_pydantic_dev_cli_.md' already exists. Skipping.
+2025-04-05 02:47:09,981 - INFO - Processing 'ai_pydantic_dev_common-tools_.csv'...
+2025-04-05 02:47:09,981 - INFO - Markdown file 'ai_pydantic_dev_common-tools_.md' already exists. Skipping.
+2025-04-05 02:47:09,981 - INFO - Processing 'ai_pydantic_dev_contributing_.csv'...
+2025-04-05 02:47:09,981 - INFO - Markdown file 'ai_pydantic_dev_contributing_.md' already exists. Skipping.
+2025-04-05 02:47:09,981 - INFO - Processing 'ai_pydantic_dev_dependencies_.csv'...
+2025-04-05 02:47:09,981 - INFO - Markdown file 'ai_pydantic_dev_dependencies_.md' already exists. Skipping.
+2025-04-05 02:47:10,472 - INFO - Processing 'ai_pydantic_dev_evals_.csv'...
+2025-04-05 02:47:10,473 - INFO - Markdown file 'ai_pydantic_dev_evals_.md' already exists. Skipping.
+2025-04-05 02:47:10,473 - INFO - Processing 'ai_pydantic_dev_examples_.csv'...
+2025-04-05 02:47:10,473 - INFO - Markdown file 'ai_pydantic_dev_examples_.md' already exists. Skipping.
+2025-04-05 02:47:10,473 - INFO - Processing 'ai_pydantic_dev_examples_bank-support_.csv'...
+2025-04-05 02:47:10,473 - INFO - Markdown file 'ai_pydantic_dev_examples_bank-support_.md' already exists. Skipping.
+2025-04-05 02:47:10,473 - INFO - Processing 'ai_pydantic_dev_examples_chat-app_.csv'...
+2025-04-05 02:47:10,474 - INFO - Markdown file 'ai_pydantic_dev_examples_chat-app_.md' already exists. Skipping.
+2025-04-05 02:47:10,474 - INFO - Processing 'ai_pydantic_dev_examples_flight-booking_.csv'...
+2025-04-05 02:47:10,474 - INFO - Markdown file 'ai_pydantic_dev_examples_flight-booking_.md' already exists. Skipping.
+2025-04-05 02:47:10,474 - INFO - Processing 'ai_pydantic_dev_examples_pydantic-model_.csv'...
+2025-04-05 02:47:10,474 - INFO - Markdown file 'ai_pydantic_dev_examples_pydantic-model_.md' already exists. Skipping.
+2025-04-05 02:47:10,474 - INFO - Processing 'ai_pydantic_dev_examples_question-graph_.csv'...
+2025-04-05 02:47:10,475 - INFO - Markdown file 'ai_pydantic_dev_examples_question-graph_.md' already exists. Skipping.
+2025-04-05 02:47:10,475 - INFO - Processing 'ai_pydantic_dev_examples_rag_.csv'...
+2025-04-05 02:47:10,475 - INFO - Markdown file 'ai_pydantic_dev_examples_rag_.md' already exists. Skipping.
+2025-04-05 02:47:10,476 - INFO - Processing 'ai_pydantic_dev_examples_sql-gen_.csv'...
+2025-04-05 02:47:10,476 - INFO - Markdown file 'ai_pydantic_dev_examples_sql-gen_.md' already exists. Skipping.
+2025-04-05 02:47:10,476 - INFO - Processing 'ai_pydantic_dev_examples_stream-markdown_.csv'...
+2025-04-05 02:47:10,476 - INFO - Markdown file 'ai_pydantic_dev_examples_stream-markdown_.md' already exists. Skipping.
+2025-04-05 02:47:10,476 - INFO - Processing 'ai_pydantic_dev_examples_stream-whales_.csv'...
+2025-04-05 02:47:10,477 - INFO - Markdown file 'ai_pydantic_dev_examples_stream-whales_.md' already exists. Skipping.
+2025-04-05 02:47:10,477 - INFO - Processing 'ai_pydantic_dev_examples_weather-agent_.csv'...
+2025-04-05 02:47:10,477 - INFO - Markdown file 'ai_pydantic_dev_examples_weather-agent_.md' already exists. Skipping.
+2025-04-05 02:47:10,477 - INFO - Processing 'ai_pydantic_dev_graph_.csv'...
+2025-04-05 02:47:10,478 - INFO - Markdown file 'ai_pydantic_dev_graph_.md' already exists. Skipping.
+2025-04-05 02:47:10,478 - INFO - Processing 'ai_pydantic_dev_help_.csv'...
+2025-04-05 02:47:10,478 - INFO - Markdown file 'ai_pydantic_dev_help_.md' already exists. Skipping.
+2025-04-05 02:47:10,478 - INFO - Processing 'ai_pydantic_dev_input_.csv'...
+2025-04-05 02:47:10,478 - INFO - Markdown file 'ai_pydantic_dev_input_.md' already exists. Skipping.
+2025-04-05 02:47:10,479 - INFO - Processing 'ai_pydantic_dev_install_.csv'...
+2025-04-05 02:47:10,479 - INFO - Markdown file 'ai_pydantic_dev_install_.md' already exists. Skipping.
+2025-04-05 02:47:10,479 - INFO - Processing 'ai_pydantic_dev_logfire_.csv'...
+2025-04-05 02:47:10,479 - INFO - Markdown file 'ai_pydantic_dev_logfire_.md' already exists. Skipping.
+2025-04-05 02:47:10,479 - INFO - Processing 'ai_pydantic_dev_mcp_.csv'...
+2025-04-05 02:47:10,479 - INFO - Markdown file 'ai_pydantic_dev_mcp_.md' already exists. Skipping.
+2025-04-05 02:47:10,479 - INFO - Processing 'ai_pydantic_dev_mcp_client_.csv'...
+2025-04-05 02:47:10,479 - INFO - Markdown file 'ai_pydantic_dev_mcp_client_.md' already exists. Skipping.
+2025-04-05 02:47:10,480 - INFO - Processing 'ai_pydantic_dev_mcp_run-python_.csv'...
+2025-04-05 02:47:10,480 - INFO - Markdown file 'ai_pydantic_dev_mcp_run-python_.md' already exists. Skipping.
+2025-04-05 02:47:10,480 - INFO - Processing 'ai_pydantic_dev_mcp_server_.csv'...
+2025-04-05 02:47:10,480 - INFO - Markdown file 'ai_pydantic_dev_mcp_server_.md' already exists. Skipping.
+2025-04-05 02:47:10,947 - INFO - Processing 'ai_pydantic_dev_message-history_.csv'...
+2025-04-05 02:47:10,947 - INFO - Markdown file 'ai_pydantic_dev_message-history_.md' already exists. Skipping.
+2025-04-05 02:47:10,947 - INFO - Processing 'ai_pydantic_dev_models_.csv'...
+2025-04-05 02:47:10,948 - INFO - Markdown file 'ai_pydantic_dev_models_.md' already exists. Skipping.
+2025-04-05 02:47:10,948 - INFO - Processing 'ai_pydantic_dev_multi-agent-applications_.csv'...
+2025-04-05 02:47:10,948 - INFO - Markdown file 'ai_pydantic_dev_multi-agent-applications_.md' already exists. Skipping.
+2025-04-05 02:47:10,948 - INFO - Processing 'ai_pydantic_dev_results_.csv'...
+2025-04-05 02:47:10,948 - INFO - Markdown file 'ai_pydantic_dev_results_.md' already exists. Skipping.
+2025-04-05 02:47:10,948 - INFO - Processing 'ai_pydantic_dev_testing_.csv'...
+2025-04-05 02:47:10,948 - INFO - Markdown file 'ai_pydantic_dev_testing_.md' already exists. Skipping.
+2025-04-05 02:47:10,948 - INFO - Processing 'ai_pydantic_dev_tools_.csv'...
+2025-04-05 02:47:10,949 - INFO - Markdown file 'ai_pydantic_dev_tools_.md' already exists. Skipping.
+2025-04-05 02:47:10,949 - INFO - Processing 'ai_pydantic_dev_troubleshooting_.csv'...
+2025-04-05 02:47:10,949 - INFO - Markdown file 'ai_pydantic_dev_troubleshooting_.md' already exists. Skipping.
+2025-04-05 02:47:10,949 - INFO - Finished processing all CSV files in 'scraped_pages\ai.pydantic.dev_sitemap'.
+2025-04-05 02:47:10,949 - INFO - Integrated workflow completed successfully!
+2025-04-05 02:47:10,949 - INFO - HTML content saved to: scraped_pages\ai.pydantic.dev_sitemap
+2025-04-05 02:47:10,949 - INFO - Markdown content saved to: ai_markdown_pages\ai.pydantic.dev_sitemap

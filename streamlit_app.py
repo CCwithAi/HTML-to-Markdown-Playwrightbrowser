@@ -189,8 +189,8 @@ if run_button and sitemap_url:
                 cmd,
                 stdout=subprocess.PIPE,
                 stderr=subprocess.STDOUT,
-                text=False,
-                bufsize=1,
+                text=False, # Keep binary mode as we wrap with TextIOWrapper
+                # bufsize=1, # Remove bufsize=1 as it causes warning in binary mode
                 env=env
             )
             

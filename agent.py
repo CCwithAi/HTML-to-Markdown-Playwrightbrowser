@@ -135,7 +135,7 @@ async def main(sitemap_url: str = None):
     if output_dir:
         logging.info(f"Scraping completed. HTML content saved to {output_dir}.")
         logging.info(f"Run converter_agent.py next to convert HTML to enhanced markdown.")
-
+    return output_dir # Return the directory path
 if __name__ == "__main__":
     # Can be run from command line:
     # python agent.py
